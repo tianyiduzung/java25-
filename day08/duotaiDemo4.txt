@@ -1,0 +1,6 @@
+
+class Fu
+{
+	void method_1
+	{
+		System.out.println("Fu method_1");

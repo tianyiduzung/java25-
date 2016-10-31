@@ -1,0 +1,13 @@
+一、1.txt文本文档中，需注意以下几点：
+	Main-Class与mymenu.MyMenuTest两者中必须有空格
+	必须有回车符号至第二行
+	此文本的作用是指定要执行的包含main函数的class文件
+
+二、生成包命令为
+	javac -d c:\myclass MymenuTest.java
+
+三、打包成jar的命令为
+	jar -cvf yijia.jar mymenu
+
+四、-m"包含指定清单文件中的清单信息"的打包方法
+	jar -cvfm yijia.jar 1.txt mymenu
